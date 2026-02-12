@@ -1,16 +1,16 @@
-# Building AI Agents with Model Context Protocol (MCP) and Oracle Database 26ai
+# Building AI Agents with Model Context Protocol (MCP) and Oracle AI Database
 
 ## Introduction
 
 <img src="./img/mcp-oracle-ai-flow.png" alt="MCP Oracle AI Flow" width="80%">
 
-This solution demonstrates how to build enterprise-grade AI agents that reason over live business data using Oracle Database 26ai and Model Context Protocol (MCP). MCP serves as a secure bridge between Large Language Models (LLMs) and Oracle Database, enabling agents to access structured data in real-time with full control and traceability.
+This solution demonstrates how to build enterprise-grade AI agents that reason over live business data using Oracle AI Database and Model Context Protocol (MCP). MCP serves as a secure bridge between Large Language Models (LLMs) and Oracle AI Database, enabling agents to access structured data in real-time with full control and traceability.
 
 ## Key Features
 
 - **MCP Integration**: Secure tool calling between LLMs and Oracle Database
 - **Real-time Data Access**: Live business data integration without ETL
-- **Vector RAG**: Native vector search capabilities in Oracle Database 26ai
+- **Vector RAG**: Native vector search capabilities in Oracle AI Database
 - **NL2SQL/Select AI**: Natural language to SQL conversion
 - **AI Optimizer**: Oracle's built-in AI optimization features
 - **Langflow Integration**: Visual workflow builder for AI agents
@@ -19,8 +19,8 @@ This solution demonstrates how to build enterprise-grade AI agents that reason o
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Langflow     │    │   MCP Server    │    │ Oracle Database │
-│   AI Agent     │◄──►│   (Oracle DB)   │◄──►│     26ai        │
+│   Langflow     │    │   MCP Server    │    │   Oracle AI     │
+│   AI Agent     │◄──►│   (Oracle DB)   │◄──►│    Database     │
 │                │    │                │    │                │
 │ • Tool Calling │    │ • SQL Execution │    │ • Vector RAG   │
 │ • Workflow     │    │ • Data Access   │    │ • Select AI    │
@@ -30,7 +30,7 @@ This solution demonstrates how to build enterprise-grade AI agents that reason o
 
 ## Prerequisites
 
-- Oracle Database 26ai (cloud or container)
+- Oracle AI Database (cloud or container)
 - Python 3.9+
 - Langflow
 - Oracle SQL Developer VS Code extension or SQLcl
@@ -51,7 +51,7 @@ langflow run --host 0.0.0.0 --port 7860
 
 ### 2. Configure Oracle MCP Server
 
-Install Oracle SQL Developer VS Code extension and create a connection to your Oracle Database 26ai instance.
+Install Oracle SQL Developer VS Code extension and create a connection to your Oracle AI Database instance.
 
 ### 3. Set Up MCP Tools in Langflow
 
@@ -142,7 +142,7 @@ export ORACLE_SID=your_sid
 
 ### Local Development
 - Langflow on local machine
-- Oracle Database 26ai container
+- Oracle AI Database container
 - Local MCP server
 
 ### Cloud Deployment
@@ -191,7 +191,7 @@ See [LICENSE](../LICENSE) for more details.
 ## Resources
 
 - [Medium Article: Develop Agentic AI Workflows with Langflow and Oracle Database MCP](https://medium.com/oracledevs/develop-agentic-ai-workflows-with-langflow-and-oracle-database-mcp-vector-rag-nl2sql-select-ai-f9958b4481e8)
-- [Oracle Database 26ai Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/)
+- [Oracle AI Database Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/)
 - [Model Context Protocol (MCP) Documentation](https://modelcontextprotocol.io/)
 - [Langflow Documentation](https://docs.langflow.org/)
 - [Oracle MCP Server](https://github.com/oracle/mcp/tree/main/src/dbtools-mcp-server)

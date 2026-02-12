@@ -11,7 +11,7 @@ Welcome to the AI Solutions repository, a collection of deployable apps, worksho
 ## 🚀 New AI Solutions (2024)
 
 ### 1. [Oracle MCP AI Agents](./apps/oracle-mcp-ai-agents/)
-**Building AI Agents with Model Context Protocol (MCP) and Oracle Database 26ai**
+**Building AI Agents with Model Context Protocol (MCP) and Oracle AI Database**
 
 - **MCP Integration**: Secure tool calling between LLMs and Oracle Database
 - **Real-time Data Access**: Live business data integration without ETL
@@ -31,7 +31,7 @@ Welcome to the AI Solutions repository, a collection of deployable apps, worksho
 ## 🔧 Existing Solutions
 
 ### AI & Machine Learning
-- [Agentic RAG](./apps/agentic_rag/) - AI RAG in a BOX Demo using Oracle AI Database 26ai and Local LLMs
+- [Agentic RAG](./apps/agentic_rag/) - AI RAG in a BOX Demo using Oracle AI Database and Local LLMs
 - [PlaneLLM](./apps/planeLLM/) - PlaneLLM integration with Oracle Database
 - [Neural Networks Hero](./workshops/neural_networks_hero/) - Neural network implementations and tutorials
 
@@ -57,7 +57,7 @@ Welcome to the AI Solutions repository, a collection of deployable apps, worksho
 
 ### Apps Directory (`apps/`)
 
-- **[agentic_rag](./apps/agentic_rag/)** - Multi-agent RAG system with Chain-of-Thought reasoning using Oracle Database 26ai and local LLMs
+- **[agentic_rag](./apps/agentic_rag/)** - Multi-agent RAG system with Chain-of-Thought reasoning using Oracle AI Database and local LLMs
 - **[holoscan](./apps/holoscan/)** - Terraform stack for deploying NVIDIA Holoscan on Oracle Linux A10 GPU instances
 - **[langflow-agentic-ai-oracle-mcp-vector-nl2sql](./apps/langflow-agentic-ai-oracle-mcp-vector-nl2sql/)** - Agentic AI workflows with Langflow, Oracle Database MCP, Vector RAG, and NL2SQL
 - **[langgraph_agent_with_genai](./apps/langgraph_agent_with_genai/)** - File indexing and conversational search using LangGraph and Oracle Generative AI
@@ -68,11 +68,11 @@ Welcome to the AI Solutions repository, a collection of deployable apps, worksho
 - **[oci-language-translation](./apps/oci-language-translation/)** - Multi-language translation services for documents and text using OCI Language
 - **[oci-subtitle-translation](./apps/oci-subtitle-translation/)** - Transcribe audio files and translate subtitles using OCI Speech and Language services
 - **[OJET (VDOM) - OCI Vision](./apps/OJET%20(VDOM)%20-%20OCI%20Vision/)** - Oracle JET Virtual DOM application with OCI Vision integration for image analysis
-- **[oracle-mcp-ai-agents](./apps/oracle-mcp-ai-agents/)** - Building AI agents with Model Context Protocol (MCP) and Oracle Database 26ai
-- **[oracle-rag-applications](./apps/oracle-rag-applications/)** - Building RAG applications with Oracle Database 26ai for document processing and semantic search
+- **[oracle-mcp-ai-agents](./apps/oracle-mcp-ai-agents/)** - Building AI agents with Model Context Protocol (MCP) and Oracle AI Database
+- **[oracle-rag-applications](./apps/oracle-rag-applications/)** - Building RAG applications with Oracle AI Database for document processing and semantic search
 - **[oracle-select-ai-insights](./apps/oracle-select-ai-insights/)** - Natural language queries for industry-specific domain data using Oracle Select AI
 - **[planeLLM](./apps/planeLLM/)** - Generate bite-sized educational podcasts on any topic using OCI GenAI service
-- **[rag_in_a_box](./apps/rag_in_a_box/)** - Containerized RAG system with Oracle Database 23ai and local LLMs deployable via Podman
+- **[rag_in_a_box](./apps/rag_in_a_box/)** - Containerized RAG system with Oracle AI Database and local LLMs deployable via Podman
 
 ### Workshops Directory (`workshops/`)
 
@@ -97,7 +97,7 @@ Each solution includes:
 
 ## 📚 Resources
 
-- [Oracle AI Database 26ai](https://www.oracle.com/database/ai-native-database-26ai/)
+- [Oracle AI Database](https://www.oracle.com/database/ai-native-database-26ai/)
 - [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/)
 
 ## 🤝 Contributing

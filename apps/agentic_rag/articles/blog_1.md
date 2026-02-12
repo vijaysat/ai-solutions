@@ -4,7 +4,7 @@
 
 Remember when everyone said the future of AI was multi-agent systems? They weren't wrong, but they didn't mention the elephant in the room: **making them actually scale**.
 
-In 2024, I built a project called `agentic_rag`, an Oracle Autonomous-based RAG system that enables communication with open-source LLMs, while enabling RAG capabilities (ask questions about documents, websites or codebases) on top of that. Here are some pictures from the gradio frontend:
+In 2024, I built a project called `agentic_rag`, an Oracle AI Database-based RAG system that enables communication with open-source LLMs, while enabling RAG capabilities (ask questions about documents, websites or codebases) on top of that. Here are some pictures from the gradio frontend:
 
 ![](../img/gradio_1.png)
 
@@ -80,7 +80,7 @@ Here are some details of how I wanted the system to be (ideally): 
 - I needed my agents to work independently from each other
 - I wanted to have the options for people to choose their favorite LLMs
 
-Additionally, I wanted to set up my Autonomous 26ai instance to be the data lake and *stronghold* for my data. A lot of people ask, "how do I store and query vector embeddings?" Well, Oracle Autonomous 26ai is a great option to do so: the autonomous database converges relational, non-relational and vector data all in the same database. So, I set up my data ingestion system around it:
+Additionally, I wanted to set up my Oracle AI Database instance to be the data lake and *stronghold* for my data. A lot of people ask, "how do I store and query vector embeddings?" Well, Oracle AI Database is a great option to do so: the autonomous database converges relational, non-relational and vector data all in the same database. So, I set up my data ingestion system around it:
 - Whenever a file is uploaded into the system, I tokenize the input text
 - From these tokens, create vector embeddings using an open-source embedding model
 - Store these vectors as VECTOR type (and metadata from the original text, e.g. page number and some context from that chapter) into a table
@@ -137,4 +137,4 @@ I would like to implement:
 
 The 2025 evolution from monolithic Agentic RAG to A2A-based distributed systems means this year has been full of development on this area; trying to steer away from "deploy the whole pipeline more times" toward deploying the right amount of the right agents.
 
-The beauty of A2A adoption is that it's open-source and standardized (and it's always nice to have it developed and maintained by Google). For organizations building serious agentic systems, this is the time where you can get ahead of the rest and start building with Oracle Autonomous 26ai (database backend) and A2A (protocol)!
+The beauty of A2A adoption is that it's open-source and standardized (and it's always nice to have it developed and maintained by Google). For organizations building serious agentic systems, this is the time where you can get ahead of the rest and start building with Oracle AI Database (database backend) and A2A (protocol)!

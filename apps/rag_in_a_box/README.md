@@ -1,4 +1,4 @@
-# AI RAG in a BOX Demo using Oracle AI Database 26ai and Local LLMs
+# AI RAG in a BOX Demo using Oracle AI Database and Local LLMs
 
 ## Introduction
 
@@ -13,7 +13,7 @@ The AI RAG in a BOX Demo utilizing the Internal LLM Engine "Ollama" is deployabl
 AI RAG in a BOX Demo using Internal LLM Engine "Ollama" can be deployed in Podman on your PC - Mac OSX (Intel or ARM), Windows (Intel or ARM), or Linux.
 
 This solution includes 2 containers:
-- Oracle Database 23ai
+- Oracle AI Database
 - AIRAG Container
 
 <img src="./images/streamlit_interface.png" alt="Podman commands" width="80%">
